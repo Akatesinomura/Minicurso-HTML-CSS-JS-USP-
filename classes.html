@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Projeto Final</title>
+    <style>
+            body {
+                background-image: url("—Pngtree—minimalistic red blue polygonal tall_920948.jpg");
+                color: #ffffff;
+                background-position: center top;
+                background-size: cover;
+                background-repeat: no-repeat;
+            
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li{
+                list-style: none;
+                display: inline-block;
+            }
+
+            ul li a{
+                text-decoration: none;
+                float: left;
+                line-height: 100px;
+                padding: 0 20px;
+                display: block;
+                color: red;
+                font-style: bold;
+                font-weight: 900;
+                font-size: 20px;
+            }
+
+            ul li a:hover {
+                color: gold;
+            }
+
+            nav{
+                height: 100px;
+                width: 100%;
+            }
+
+            .home {
+                background: url(button_home2.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+                margin-left: 5px;
+                position: relative;
+            }
+
+            .home:hover {
+                background: url(button_home.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+            }
+
+            .hist {
+                background: url(button_historia2.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .hist:hover {
+                background: url(button_historia.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .classes {
+                background: url(button_classes2.png);
+                background-size: cover;
+                width: 129px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .classes:hover{ 
+                background: url(button_classes.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .guia {
+                background: url(button_guia-guarda-real2.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .guia:hover {
+                background: url(button_guia-guarda-real.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+            }
+
+            #poring {
+                width: 80px;
+
+            }
+            #tabela1{
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            #class1{
+                margin-top: 65px;
+                text-align: center;
+                font-size: 40px;
+                text-shadow: -1px 0 #02a5e0, 0 1px #02a5e0, 1px 0 #02a5e0, 0 -1px #02a5e0; 
+            }
+
+            table.center{
+                margin-left:auto;
+                margin-right: auto;
+            }
+
+            .separador1{
+                background-color: #fca4fb;
+                text-shadow: 2px 0px black, 0 2px black, -2px 0 black, 0 -2px black;
+            }
+
+            .separador2{
+                background-color: #8cffa5;
+                text-shadow: 2px 0px black, 0 2px black, -2px 0 black, 0 -2px black;
+            }
+
+            .separador3{
+                background-color: #86d7f7;
+                text-shadow: 2px 0px black, 0 2px black, -2px 0 black, 0 -2px black;
+            }
+
+            .separador4{
+                background-color: #b262f0;
+                text-shadow: 2px 0px black, 0 2px black, -2px 0 black, 0 -2px black;
+            }
+
+            .separador5{
+                background-color: #faf066;
+                text-shadow: 2px 0px black, 0 2px black, -2px 0 black, 0 -2px black;
+            }
+
+            .separador6{
+                background-color: #fff2fc;
+                color: gray;
+                font-weight: 700;
+                text-shadow: 1px 1px #000;
+            }
+
+            #rodape {
+                font-size: 11px;
+                bottom: 0;
+                text-align: right;
+                position: absolute;
+            }
+    </style>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><img src="1590331386418.gif" alt="Poring" id="poring"></li>
+            <li><a href="index.html"><div class="home"></div></a></li>
+            <li><a href="historia.html"><div class="hist"></div></a></li>
+            <li><a href="classes.html"><div class="classes"></div></a></li>
+            <li><a href="guia.html"><div class="guia"></div></a></li>
+        </ul>
+    </nav>
+    <div id="musiquinha">
+        <audio autoplay id="prontera">
+            <source src="prontera.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            var audio = document.getElementById("prontera");
+            audio.volume = 0.1;
+        </script>
+    </div>    
+</header>
+
+<body>
+    <div id="class1">Sistema de Classes</div>
+    <article id="tabela1">
+        <table class="center">
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador1">Classe Inicial</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="separador6" colspan="14">Aprendiz</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador2">Classes 1-1</th>
+                </tr>
+            <tbody>
+                <tr class="separador6">    
+                    <td >Espadachim</td>
+                    <td></td>
+                    <td >Mago</td>
+                    <td></td>
+                    <td colspan="2">Arqueiro</td>
+                    <td>Mercador</td>
+                    <td></td>
+                    <td >Gatuno</td>
+                    <td></td>
+                    <td >Noviço</td>
+                    <td></td>
+                    <td >Taekwon</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador3">Classes 2-1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Cavaleiro</td>
+                    <td></td>
+                    <td>Bruxo</td>
+                    <td></td>
+                    <td colspan="2">Caçador</td>
+                    <td>Ferreiro</td>
+                    <td></td>
+                    <td>Mercenário</td>
+                    <td></td>
+                    <td>Sacerdote</td>
+                    <td></td>
+                    <td>Mestre Taekwon</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador3">Classes 2-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Templário</td>
+                    <td></td>
+                    <td>Sábio</td>
+                    <td></td>
+                    <td>Bardo</td>
+                    <td>Odalisca</td>
+                    <td>Alquimista</td>
+                    <td></td>
+                    <td>Arruaceiro</td>
+                    <td></td>
+                    <td>Monge</td>
+                    <td></td>
+                    <td>Espiritualista</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador4">Transclasse 2-1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Lorde</td>
+                    <td></td>
+                    <td>Arquimago</td>
+                    <td></td>
+                    <td colspan="2">Atirador de Elite</td>
+                    <td>Mestre-Ferreiro</td>
+                    <td></td>
+                    <td>Algoz</td>
+                    <td></td>
+                    <td>Sumo-Sacerdote</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador4">Transclasse 2-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Paladino</td>
+                    <td></td>
+                    <td>Professor</td>
+                    <td></td>
+                    <td>Menestrel</td>
+                    <td>Cigana</td>
+                    <td>Criador</td>
+                    <td></td>
+                    <td>Desordeiro</td>
+                    <td></td>
+                    <td>Mestre</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador5">Classes 3-1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Cavaleiro Rúnico</td>
+                    <td></td>
+                    <td>Arcano</td>
+                    <td></td>
+                    <td colspan="2">Sentinela</td>
+                    <td>Mecânico</td>
+                    <td></td>
+                    <td>Sicário</td>
+                    <td></td>
+                    <td>Arcebispo</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                    <th colspan="14" class="separador5">Classes 3-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="separador6">
+                    <td>Guarda Real</td>
+                    <td></td>
+                    <td>Feiticeiro</td>
+                    <td></td>
+                    <td>Trovador</td>
+                    <td>Musa</td>
+                    <td>Bioquímico</td>
+                    <td></td>
+                    <td>Renegado</td>
+                    <td></td>
+                    <td>Shura</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+    <p id="rodape">Feito por Matheus Marcondes de Almeida, projeto final do Minicurso de HTML, CSS e Javascript</p>
+</body>
+</html>

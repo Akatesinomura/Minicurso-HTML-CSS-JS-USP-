@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Projeto Final</title>
+    <style>
+            body {
+                background-image: url("—Pngtree—minimalistic red blue polygonal tall_920948.jpg");
+                color: #ffffff;
+                background-position: center top;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li{
+                list-style: none;
+                display: inline-block;
+            }
+
+            ul li a{
+                text-decoration: none;
+                float: left;
+                line-height: 100px;
+                padding: 0 20px;
+                display: block;
+                color: red;
+                font-style: bold;
+                font-weight: 900;
+                font-size: 20px;
+            }
+
+            ul li a:hover {
+                color: gold;
+            }
+
+            nav{
+                height: 100px;
+                width: 100%;
+            }
+
+            .home {
+                background: url(button_home2.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+                margin-left: 5px;
+                position: relative;
+            }
+
+            .home:hover {
+                background: url(button_home.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+            }
+
+            .hist {
+                background: url(button_historia2.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .hist:hover {
+                background: url(button_historia.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .classes {
+                background: url(button_classes2.png);
+                background-size: cover;
+                width: 129px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .classes:hover{ 
+                background: url(button_classes.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .guia {
+                background: url(button_guia-guarda-real2.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .guia:hover {
+                background: url(button_guia-guarda-real.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+            }
+
+            #poring {
+                width: 80px;
+
+            }
+
+            #hist{
+            margin-left: 170px;
+            margin-right: 170px;
+            word-wrap: normal;
+            text-align: center;
+            text-shadow: 2px 2px black
+            }
+            #historia{
+            text-align: center;
+            font-size: 40px;
+            text-shadow: -1px 0 #02a5e0, 0 1px #02a5e0, 1px 0 #02a5e0, 0 -1px #02a5e0;
+            margin-top: 100px; 
+            }
+
+            #rodape {
+                font-size: 11px;
+                margin-top: 30px;
+                text-align: left;
+                position: relative;
+            }
+
+            .video{
+                position: relative;
+                margin-top: 50px;
+                margin-left: 400px;
+                margin-right: 250px;
+            }
+    </style>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><img src="1590331386418.gif" alt="Poring" id="poring"></li>
+            <li><a href="index.html"><div class="home"></div></a></li>
+            <li><a href="historia.html"><div class="hist"></div></a></li>
+            <li><a href="classes.html"><div class="classes"></div></a></li>
+            <li><a href="guia.html"><div class="guia"></div></a></li>
+        </ul>
+    </nav>
+    <div id="musiquinha">
+        <audio autoplay id="prontera">
+            <source src="prontera.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            var audio = document.getElementById("prontera");
+            audio.volume = 0.1;
+        </script>
+    </div>    
+</header>
+
+<body>
+    <div id=historia>História</div>
+    <article id="hist">
+        Ragnarök Online (em coreano: 라그나로크 온라인) é um MMORPG desenvolvido pela empresa sul-coreana Gravity Corp. Os cenários do jogo foi baseado, inicialmente, no manhwa Ragnarök de Lee Myung-Jin. Foi lançado em Agosto de 2002 na Coréia do Sul, e trazido para o Brasil em Setembro de 2004. Ragnarök Online foi o primeiro jogo online coreano a ser exportado com sucesso a outros países. No Brasil, foi o primeiro MMORPG traduzido oficialmente para a língua portuguesa, rodado em servidores nacionais, com planos de pagamento em Real,[1] tendo se tornado um game com servidores gratuitos e pagos, com um sistema de microtransações e um sistema de servidor VIP. Estima-se que tenha possuido mais de 25 milhões de assinantes no mundo em 2011. O jogo pode ser divido entre dois períodos, um antes e um depois do "Renewal", que foi a adição de terceiras classes e várias mudanças no funcionamento do jogo.
+    </article>
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/uI6tyvNEEqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p id="rodape">Feito por Matheus Marcondes de Almeida, projeto final do Minicurso de HTML, CSS e Javascript</p>
+</body>
+</html>

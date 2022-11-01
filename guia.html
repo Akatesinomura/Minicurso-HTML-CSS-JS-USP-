@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Projeto Final</title>
+    <style>
+            body {
+                background-image: url("—Pngtree—minimalistic red blue polygonal tall_920948.jpg");
+                color: #ffffff;
+                background-position: center top;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li{
+                list-style: none;
+                display: inline-block;
+            }
+
+            ul li a{
+                text-decoration: none;
+                float: left;
+                line-height: 100px;
+                padding: 0 20px;
+                display: block;
+                color: red;
+                font-style: bold;
+                font-weight: 900;
+                font-size: 20px;
+            }
+
+            ul li a:hover {
+                color: gold;
+            }
+
+            nav{
+                height: 100px;
+                width: 100%;
+            }
+
+            .home {
+                background: url(button_home2.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+                margin-left: 5px;
+                position: relative;
+            }
+
+            .home:hover {
+                background: url(button_home.png);
+                background-size: cover;
+                width: 116px;
+                height: 47px;
+            }
+
+            .hist {
+                background: url(button_historia2.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .hist:hover {
+                background: url(button_historia.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .classes {
+                background: url(button_classes2.png);
+                background-size: cover;
+                width: 129px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .classes:hover{ 
+                background: url(button_classes.png);
+                background-size: cover;
+                width: 134px;
+                height: 47px;
+            }
+
+            .guia {
+                background: url(button_guia-guarda-real2.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+                position: relative;
+                margin-left: 3px;
+            }
+
+            .guia:hover {
+                background: url(button_guia-guarda-real.png);
+                background-size: cover;
+                width: 225px;
+                height: 47px;
+            }
+
+            #poring {
+                width: 80px;
+
+            }
+
+            #guardart {
+                float: right;
+                position: relative;
+                margin-left: 10px;
+            }
+
+            .container1 {
+                margin-top:10px; 
+                margin-left: 160px;
+                margin-right: 160px;
+                font-size: 20px;
+                text-shadow: 1px 1px black;
+            }
+
+            #h1g {
+                text-align: center;
+                margin-top: 110px;
+                font-size: 40px;
+                text-shadow: -1px 0 #02a5e0, 0 1px #02a5e0, 1px 0 #02a5e0, 0 -1px #02a5e0;
+            }
+
+            #h2g {
+                text-align: center;
+                margin-top: 110px;
+                font-size: 35px;
+                text-shadow: -1px 0 #02a5e0, 0 1px #02a5e0, 1px 0 #02a5e0, 0 -1px #02a5e0;
+            }
+
+            #hab {
+                float: right;
+                position: relative;
+                margin-left: 10px;
+            }
+
+            .h3g {
+                text-align: center;
+                margin-top: 70px;
+                font-size: 20px;
+                color: black;
+                text-shadow: -1px 0 gold, 1px 0 gold, 0 1px gold, 0 -1px gold;
+            }
+
+            #hab2 {
+                float: right;   
+                margin-left: 10px;
+                margin-right: 175px;
+            }
+
+            .container2 {
+                text-align: center;
+            }
+
+            .tabela {
+                margin-left: 160px;
+                margin-right: 160px;
+                width: 300px;
+                border: solid;
+                float: top;
+            }
+
+            #rodape {
+                font-size: 11px;
+                margin-top: 30px;
+                text-align: left;
+                position: relative;
+            }
+    </style>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><img src="1590331386418.gif" alt="Poring" id="poring"></li>
+            <li><a href="index.html"><div class="home"></div></a></li>
+            <li><a href="historia.html"><div class="hist"></div></a></li>
+            <li><a href="classes.html"><div class="classes"></div></a></li>
+            <li><a href="guia.html"><div class="guia"></div></a></li>
+        </ul>
+    </nav>
+    <div id="musiquinha">
+        <audio autoplay id="prontera">
+            <source src="prontera.mp3" type="audio/mpeg">
+        </audio>
+        <script>
+            var audio = document.getElementById("prontera");
+            audio.volume = 0.1;
+        </script>
+    </div>    
+</header>
+
+<body>
+    <article>
+        <h1 id="h1g">Guardiões Reais</h1>
+        <div class="container1">
+            <div id="guardart"><img src="Arte_Guardiões_Reais.png" height=120px width=120px></div>
+            <div id="texto1">Os Guardiões Reais surgiram três séculos atrás, na época em que Glast Heim foi construída.
+
+                O regente de Rune-Midgard na época, Rei Schmitz Von Walther, sabia da importância de preparar uma força especial para lidar com a ameaça constante dos inimigos da nação.
+                
+                Domine o uso da lança e aprenda diversas novas formas de ataque.
+                
+                Use poderes sagrados para aumentar suas habilidades e causar dano aos seus inimigos.
+                
+                Una-se a outros Guardiões Reais para aumentar seus poderes, e monte em um forte e imponente Grifo! </div>
+            </div>
+        <h2 id="h2g">Construção do Personagem</h2>
+        <div class="container1">
+            <div id="hab"><img src="Screenshot_1.png" width=250px></div>
+            <div id="texto2">Guardiões Reais possuem várias construções de habilidades e atributos diferentes entre si. Essas construções são conhecidas popularmente como build.
+
+                As builds giram em torno de equipamentos que são atualizados constantemente, gerando uma imensa variedade de formas para montar seu personagem. Recomendo que você pesquise nos fóruns e grupos afora para detalhes mais específicos de cada build de seu personagem, como o ragnaplace, por exemplo.
+
+                As construções de personagem abaixo são sugestões básicas, sem levar em consideração os equipamentos a serem adquiridos pelos jogadores.</div>
+        </div>
+        <h3 class="h3g">Lansquenetes</h3>
+        <div class="container1">Focado no dano de Lança do Destino e Toque do Oblívio, aliado a alta velocidade de ataque.
+
+            Conta com habilidades de autossuficiência - como a Consagração, para potencializar o personagem.
+            
+            Construção popular devido à rápida evolução e eficiência na caçada de MVPs. 
+        </div>
+        <div id="hab2"><img src="Screenshot_2.png" width=142></div>
+        <div class="container2">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th colspan=3>Atributo</th>
+                        <th colspan=3>Qtd.</th>
+                        <th colspan=5>Observações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan=3>FOR</th>
+                        <td>90</td>
+                        <td> - </td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>AGI</th>
+                        <td>90</td>
+                        <td> - </td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>VIT</th>
+                        <td>90</td>
+                        <td> - </td>
+                        <td>110</td>
+                        <td colspan=5>100-120 se usar o combo do Tapa-Olho Cósmico</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>INT</th>
+                        <td>1</td>
+                        <td> - </td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>DES</th>
+                        <td>90</td>
+                        <td> - </td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>SOR</th>
+                        <td>1</td>
+                        <td> - </td>
+                        <td>43</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3g">Redentores</h3>
+        <div class="container1">
+            Voltada para o suporte, muito útil na Guerra do Emperium e para evoluir em grupos.
+
+            Utilizam habilidades defensivas e de suporte, como Proteção da Vanguarda e Prestígio Divino, além de habilidades das classes anteriores, como Redenção.
+
+            Ainda podem optar por algumas habilidades ofensivas ou que atrapalhem os inimigos. 
+        </div>
+        <div id="hab2"><img src="Screenshot_3.png" width=163></div>
+        <div class="container2">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th colspan=3>Atributo</th>
+                        <th colspan=3>Qtd.</th>
+                        <th colspan=5>Observações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan=3>FOR</th>
+                        <td>50</td>
+                        <td> - </td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>AGI</th>
+                        <td>65</td>
+                        <td> - </td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>VIT</th>
+                        <td>100</td>
+                        <td> - </td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>INT</th>
+                        <td>70</td>
+                        <td> - </td>
+                        <td>80</td>
+                        <td>120, se usar o combo do Paraíso</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>DES</th>
+                        <td>60</td>
+                        <td> - </td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>SOR</th>
+                        <td>1</td>
+                        <td> - </td>
+                        <td>50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3g">Hoplitas</h3>
+        <div class="container1">
+            São Guardiões Reais especializados no uso de Exceder Limite, habilidade que pode atingir danos relevantes na Guerra do Emperium e no PvP.
+
+            Foca-se no aumento de dano físico, de taxa de críticos e de dano crítico.
+
+            Usa também Lança do Destino e Estocada Precisa para complementar o dano, caso esteja equipado com lança. 
+        </div>
+        <div id="hab2"><img src="Screenshot_4.png" width=137></div>
+        <div class="container2">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th colspan=3>Atributo</th>
+                        <th colspan=3>Qtd.</th>
+                        <th colspan=5>Observações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan=3>FOR</th>
+                        <td>80</td>
+                        <td> - </td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>AGI</th>
+                        <td>1</td>
+                        <td> - </td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>VIT</th>
+                        <td>80</td>
+                        <td> - </td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>INT</th>
+                        <td>1</td>
+                        <td> - </td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>DES</th>
+                        <td>60</td>
+                        <td> - </td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <th colspan=3>SOR</th>
+                        <td>60</td>
+                        <td> - </td>
+                        <td>120</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <p id="rodape">Feito por Matheus Marcondes de Almeida, projeto final do Minicurso de HTML, CSS e Javascript</p>
+</body>
+</html>
